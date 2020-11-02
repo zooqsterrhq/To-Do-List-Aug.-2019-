@@ -1,0 +1,45 @@
+<html>
+ <head>
+   <title>To-Do List</title>
+   <link rel="stylesheet" type="text/css" href="to-do.css">
+  
+ </head>
+ <body>
+   
+   <h1 id="pageHeader" >Todo List</h1>
+   
+   <!--DISPLAY and TOGGLE ALL BUTTONS-->
+   <div>
+    <button onclick="handlers.toggleAll()">Toggle All</button>
+    <a href="https://www.marzooqa.ca/" target="_blank"><button>Portfolio Website</button></a>
+    <a href="https://www.werkapp.co/" target="_blank"><button>WerkApp</button></a>
+    <a href="https://www.menuless.ca/" target="_blank"><button>Menuless</button></a>
+    <a href="https://www.machinify.com/home/philosophy.html" target="_blank"><button>Machinify | Dream startup to learn from.</button></a>
+   </div>
+   
+   <!--ADD TODO BUTTON and INPUT-->
+   <div>
+     <button onclick="handlers.addTodo()">New</button>
+     <input type="text" placeholder="Add new todo here!" id="addTodoTextInput" />
+   </div>
+   
+   <!--CHANGE TODO BUTTON and INPUTS-->
+   <div>
+    <button onclick="handlers.changeTodo()">Change Todo</button> 
+    <input type="number" id="changeTodoPositionInput" placeholder="Insert item # to be changed" />
+    <input type="text" id="changeTodoTextInput" placeholder="Insert text" />
+   </div>
+   
+   <!--DELETE TODO BUTTON and INPUT-->
+   <div>
+     <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+     <input type="number" id="toggleCompletedPositionInput" placeholder="Insert item # which you've completed"/>
+   </div>
+   
+   <h2 id="todoListHeader" >Todos</h2>
+   <ol id="todoFrontEndDisplay">
+   </ol>
+   
+   <script src="script.js"></script>
+ </body> 
+</html>
