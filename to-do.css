@@ -1,0 +1,52 @@
+body {
+    background-color: #11E210;
+    cursor: pointer;
+  }
+  
+  #pageHeader {
+    color: #00ffff;
+  }
+  
+  button {
+    border: 1.5px solid #00ffff;
+    background-color: #D3D3D3;
+    border-radius: 15px;
+    
+  }
+  
+  /*button:mouseOver {*/
+  /*  border: none;*/
+  /*}*/
+  
+  #addTodoTextInput {
+    width: 140px;
+  }
+  
+  #changeTodoPositionInput {
+    width: 180px;
+  }
+  
+  #changeTodoTextInput {
+   width: 150px;
+  }
+  
+  #deleteTodoPositionInput {
+    width: 204px;
+  }
+  
+  #toggleCompletedPositionInput {
+    width: 240px;
+  }
+  
+  input {
+    text-align: center;
+  }
+  
+  #todoListHeader {
+    color: #D3D3D3;
+  }
+  
+  /*------------ORDERED LIST STYLING--------------------*/
+  #todoFrontEndDisplay {
+    color: #00ffff;
+  }
